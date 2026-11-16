@@ -1,0 +1,7 @@
+# INT8 export and the on-board runtime. Exact versions: the quantisation
+# (torchao pt2e) and lowering (ExecuTorch/XNNPACK) APIs change between releases.
+torch==2.12.1
+torchao==0.17.0
+executorch==1.3.1
+numpy
+scipy

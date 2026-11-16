@@ -1,0 +1,66 @@
+W1014 17:20:46.951000 3213 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+temp 42.5 C, cpu 1800 MHz, governor performance
+[cpuinfo_utils.cpp:71] Reading file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:87] Failed to open midr file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu0/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu1/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu2/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu3/regs/identification/midr_el1
+      12 s | 2000 calls | temp 43.8 C | 1800 MHz | last-pass median 4.12 ms
+      23 s | 4000 calls | temp 45.0 C | 1800 MHz | last-pass median 4.11 ms
+      35 s | 6000 calls | temp 44.4 C | 1800 MHz | last-pass median 4.11 ms
+      46 s | 8000 calls | temp 45.6 C | 1800 MHz | last-pass median 4.11 ms
+      58 s | 10000 calls | temp 45.6 C | 1800 MHz | last-pass median 4.12 ms
+      69 s | 12000 calls | temp 45.6 C | 1800 MHz | last-pass median 4.11 ms
+      80 s | 14000 calls | temp 46.1 C | 1800 MHz | last-pass median 4.12 ms
+      92 s | 16000 calls | temp 46.1 C | 1800 MHz | last-pass median 4.11 ms
+     103 s | 18000 calls | temp 46.1 C | 1800 MHz | last-pass median 4.11 ms
+     115 s | 20000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.10 ms
+     126 s | 22000 calls | temp 46.1 C | 1800 MHz | last-pass median 4.12 ms
+     138 s | 24000 calls | temp 46.1 C | 1800 MHz | last-pass median 4.10 ms
+     149 s | 26000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     160 s | 28000 calls | temp 47.2 C | 1800 MHz | last-pass median 4.10 ms
+     172 s | 30000 calls | temp 47.2 C | 1800 MHz | last-pass median 4.10 ms
+     183 s | 32000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     195 s | 34000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     206 s | 36000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     218 s | 38000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     229 s | 40000 calls | temp 46.7 C | 1800 MHz | last-pass median 4.11 ms
+     240 s | 42000 calls | temp 47.8 C | 1800 MHz | last-pass median 4.06 ms
+     250 s | 44000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.69 ms
+     260 s | 46000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.70 ms
+     270 s | 48000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.69 ms
+     280 s | 50000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     290 s | 52000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     301 s | 54000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.71 ms
+     311 s | 56000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.70 ms
+     321 s | 58000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.70 ms
+     331 s | 60000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.70 ms
+     341 s | 62000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.71 ms
+     351 s | 64000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.71 ms
+     361 s | 66000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     371 s | 68000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     381 s | 70000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.71 ms
+     391 s | 72000 calls | temp 48.9 C | 1800 MHz | last-pass median 3.70 ms
+     401 s | 74000 calls | temp 48.9 C | 1800 MHz | last-pass median 3.70 ms
+     411 s | 76000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.70 ms
+     421 s | 78000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     432 s | 80000 calls | temp 47.8 C | 1800 MHz | last-pass median 3.71 ms
+     442 s | 82000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.71 ms
+     452 s | 84000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.70 ms
+     462 s | 86000 calls | temp 48.3 C | 1800 MHz | last-pass median 3.70 ms
+     472 s | 88000 calls | temp 48.9 C | 1800 MHz | last-pass median 3.71 ms
+     483 s | 90000 calls | temp 46.7 C | 1800 MHz | last-pass median 3.90 ms
+     494 s | 92000 calls | temp 46.7 C | 1800 MHz | last-pass median 3.92 ms
+     505 s | 94000 calls | temp 46.7 C | 1800 MHz | last-pass median 3.92 ms
+     515 s | 96000 calls | temp 46.1 C | 1800 MHz | last-pass median 3.92 ms
+     526 s | 98000 calls | temp 46.1 C | 1800 MHz | last-pass median 3.92 ms
+     537 s | 100000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+     548 s | 102000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+     559 s | 104000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+     570 s | 106000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.91 ms
+     580 s | 108000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+     591 s | 110000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+     602 s | 112000 calls | temp 45.6 C | 1800 MHz | last-pass median 3.92 ms
+soak: temp 42.5 -> max 48.9 C | CPU 1800-1800 MHz | median first 10% 4.11 ms, last 10% 3.92 ms
+wrote results_cooled/soak.json

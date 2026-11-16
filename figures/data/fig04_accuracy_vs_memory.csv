@@ -1,0 +1,18 @@
+method,year,r_sub1,r_sub2,r_sub3,r_mean,causal,measured_on_device,memory_kB,fingers_averaged,scoring,source
+This work; INT8 on board,2026,0.510042,0.450671,0.647802,0.536172,yes,1,66.836,4,official (1000 Hz),board_int8_scores.csv
+This work; FP32,2026,0.510727,0.450516,0.636427,0.532557,yes,0,101.476,4,official (1000 Hz),int8_ptq_results.csv
+This work; 5-seed INT8 ensemble,2026,0.587403,0.504494,0.691235,0.594378,yes,1,334.18,4,official (1000 Hz),board predictions averaged; ensemble timing not measured
+Flamary & Rakotomamonjy,2012,0.48,0.24,0.56,0.43,check,0,,4,official,competition entry
+Liang & Bougrain (winner),2012,0.45,0.39,0.59,0.48,check,0,,4,official,competition entry
+Xie et al. (CNN-LSTM),2018,0.56,0.41,0.58,0.52,check,0,,,,J. Neural Eng. 15:036009
+Petrosyan et al. (compact CNN),2021,0.45,0.34,0.56,0.45,yes,0,,,,as tabulated by DTCNet 2025
+Yao et al. (LightGBM),2022,0.52,0.47,0.61,0.537,past only,0,,,,J. Neural Eng. 19:016037
+Lin et al. RF; deployed (STM32H7),2025,,,,0.535,yes,1,903,5,10 Hz,J. Neural Eng. 22:046012; Tables 2-4
+Lin et al. CNN+LSTM,2025,0.567,0.465,0.669,0.567,window,0,3267.9,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+Lin et al. LSTM,2025,0.54,0.351,0.615,0.502,window,0,5752.5,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+Lin et al. CNN,2025,0.516,0.443,-0.022,0.312,window,0,2561.2,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+Lin et al. ANN,2025,0.521,0.328,-0.013,0.279,window,0,17002.4,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+Lin et al. SVR,2025,0.496,0.277,0.572,0.448,window,0,290431,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+Lin et al. PLS,2025,0.496,0.341,-0.008,0.276,window,0,109.7,5,10 Hz,J. Neural Eng. 22:046012; Tables 3; 5
+FingerFlex (U-Net),2022,0.66,0.62,0.74,0.67,no,0,2400,5,100 Hz,arXiv 2211.01960 (~600k parameters; own 6.5/3.5 min split)
+DTCNet,2025,0.71,0.59,0.77,0.69,no,0,2680,5,,Front. Comput. Neurosci. 19 (550k-790k parameters)

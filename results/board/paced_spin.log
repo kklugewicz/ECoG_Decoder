@@ -1,0 +1,12 @@
+W1014 23:38:19.299000 2810 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+temp 37.2 C, cpu 1800 MHz, governor performance
+[cpuinfo_utils.cpp:71] Reading file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:87] Failed to open midr file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu0/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu1/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu2/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu3/regs/identification/midr_el1
+sub1: 2000 calls over 200.0 s (real time 200.0 s) | label age median 96.4 ms max 131.5 | misses >100 ms: 2 | overruns 0 | temp 37.2->40.0 C, min 1800 MHz
+sub2: 2000 calls over 200.0 s (real time 200.0 s) | label age median 95.6 ms max 105.3 | misses >100 ms: 1 | overruns 0 | temp 37.2->40.0 C, min 1800 MHz
+sub3: 2000 calls over 200.0 s (real time 200.0 s) | label age median 96.3 ms max 99.1 | misses >100 ms: 0 | overruns 0 | temp 36.7->40.0 C, min 1800 MHz
+wrote results_final/paced.json

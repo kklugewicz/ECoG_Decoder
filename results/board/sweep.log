@@ -1,0 +1,24 @@
+W1014 16:41:06.684000 2682 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+temp 46.7 C, cpu 1800 MHz, governor performance
+[cpuinfo_utils.cpp:71] Reading file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:87] Failed to open midr file /sys/devices/soc0/image_version
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu0/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu1/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu2/regs/identification/midr_el1
+[cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu3/regs/identification/midr_el1
+sub1 emit  1 (window 284): median 3.84 ms p95 4.43 p99 5.38 max 13.87 | 3.842 ms/label | max 49.4 C, min 1800 MHz
+sub1 emit  5 (window 288): median 3.86 ms p95 4.35 p99 5.49 max 8.16 | 0.771 ms/label | max 48.9 C, min 1800 MHz
+sub1 emit 10 (window 293): median 4.08 ms p95 4.92 p99 6.35 max 8.22 | 0.408 ms/label | max 49.4 C, min 1800 MHz
+sub1 emit 25 (window 308): median 4.12 ms p95 4.49 p99 5.38 max 6.24 | 0.165 ms/label | max 48.9 C, min 1800 MHz
+sub1 emit 50 (window 333): median 4.44 ms p95 5.00 p99 5.77 max 7.01 | 0.089 ms/label | max 48.9 C, min 1800 MHz
+sub2 emit  1 (window 284): median 3.48 ms p95 3.97 p99 4.83 max 7.28 | 3.477 ms/label | max 50.0 C, min 1800 MHz
+sub2 emit  5 (window 288): median 3.56 ms p95 4.07 p99 5.21 max 8.21 | 0.713 ms/label | max 50.0 C, min 1800 MHz
+sub2 emit 10 (window 293): median 3.65 ms p95 3.93 p99 4.57 max 5.89 | 0.365 ms/label | max 50.0 C, min 1800 MHz
+sub2 emit 25 (window 308): median 3.75 ms p95 4.15 p99 5.19 max 6.48 | 0.150 ms/label | max 50.0 C, min 1800 MHz
+sub2 emit 50 (window 333): median 3.94 ms p95 4.28 p99 4.85 max 5.06 | 0.079 ms/label | max 50.0 C, min 1800 MHz
+sub3 emit  1 (window 284): median 3.50 ms p95 3.96 p99 5.12 max 7.09 | 3.504 ms/label | max 50.6 C, min 1800 MHz
+sub3 emit  5 (window 288): median 3.78 ms p95 5.27 p99 8.24 max 15.87 | 0.756 ms/label | max 50.0 C, min 1800 MHz
+sub3 emit 10 (window 293): median 3.91 ms p95 4.51 p99 5.67 max 11.23 | 0.391 ms/label | max 48.9 C, min 1800 MHz
+sub3 emit 25 (window 308): median 3.98 ms p95 4.33 p99 4.89 max 5.53 | 0.159 ms/label | max 48.9 C, min 1800 MHz
+sub3 emit 50 (window 333): median 4.20 ms p95 4.39 p99 5.23 max 5.68 | 0.084 ms/label | max 48.9 C, min 1800 MHz
+wrote results_cooled/sweep.json

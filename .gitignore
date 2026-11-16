@@ -1,0 +1,22 @@
+# data set (not redistributable) and everything derived from it
+data/*
+!data/README.md
+
+# new checkpoints and ablation runs; only the paper's models are tracked
+checkpoints/*
+!checkpoints/paper_*
+runs/
+
+# board run outputs (the paper's run is in results/board)
+board/inputs/
+board/results/
+
+# figure output
+figures/out/
+
+*.part.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
